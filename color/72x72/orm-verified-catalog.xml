@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<emoji>
+		<char>✅</char>
+		<png>check-mark-button_2705.png</png>
+		<alt>check mark emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🚀</char>
+		<png>rocket_1f680.png</png>
+		<alt>rocket emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🎯</char>
+		<png>direct-hit_1f3af.png</png>
+		<alt>direct hit emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🕹</char>
+		<png>joystick_1f579-fe0f.png</png>
+		<alt>joystick emoji</alt>
+	</emoji>
+	
+	<emoji>
+		<char>🐦‍⬛</char>
+		<png>black-bird_1f426-200d-2b1b.png</png>
+		<alt>blackbird emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🔮</char>
+		<png>crystal-ball_1f52e.png</png>
+		<alt>crystal ball emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🔍</char>
+		<png>magnifying-glass-tilted-left_1f50d.png</png>
+		<alt>magnifiying glass emoji</alt>
+	</emoji>
+	<emoji>
+		<char>✨</char>
+		<png>2728_sparkle.png</png>
+		<alt>sparkles emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🗳</char>
+		<png>ballot-box-with-ballot_1f5f3-fe0f.png</png>
+		<alt>ballot box with ballot emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🖼</char>
+		<png>framed-picture_1f5bc-fe0f.png</png>
+		<alt>framed picture emoji</alt>
+	</emoji>
+	<emoji>
+		<char>❌</char>
+		<png>cross-mark_274c.png</png>
+		<alt>cross mark emoji</alt>
+	</emoji>
+	<emoji>
+		<char>📜</char>
+		<png>scroll_1f4dc.png</png>
+		<alt>scroll emoji</alt>
+	</emoji>
+
+
+	<emoji>
+		<char>🔁</char>
+		<png>repeat-button_1f501.png</png>
+		<hex>repeat button emoji</hex>
+	</emoji>
+	<emoji>
+		<char>🧠</char>
+		<png>brain_1f9e0.png</png>
+		<alt>brain emoji</alt>
+	</emoji>
+	<emoji>
+		<char>📍</char>
+		<png>round-pushpin_1f4cd.png</png>
+		<alt>round pushpin emoji</alt>
+	</emoji>
+	<emoji>
+		<char>💾</char>
+		<png>floppy-disk_1f4be.png</png>
+		<alt>floppy disk emoji</alt>
+	</emoji>
+	<emoji>
+		<char>💡</char>
+		<png>light-bulb_1f4a1.png</png>
+		<alt>light bulb emoji</alt>
+	</emoji>
+	<emoji>
+		<char>💥</char>
+		<png>collision_1f4a5.png</png>
+		<alt>collision emoji</alt>
+	</emoji>
+	<emoji>
+		<char>⚠️</char>
+		<png>warning_26a0-fe0f.png</png>
+		<alt>warning icon emoji</alt>
+	</emoji>
+	<emoji>
+		<char>ℹ️</char>
+		<png></png>
+		<alt></alt>
+	</emoji>
+	<emoji>
+		<char>🗓</char>
+		<png></png>
+		<alt></alt>
+	</emoji>
+	<emoji>
+		<char>🌐</char>
+		<png>globe-with-meridians_1f310.png</png>
+		<alt>globe emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🏃</char>
+		<png>person-running_1f3c3.png</png>
+		<alt>person running emoji</alt>
+	</emoji>
+	<emoji>
+		<char>📊</char>
+		<png>bar-chart_1f4ca.png</png>
+		<alt>barchart emoji</alt>
+	</emoji>
+	<emoji>
+		<char>📦</char>
+		<png>package_1f4e6.png</png>
+		<alt>package emoji</alt>
+	</emoji>
+	<emoji>
+		<char>😊</char>
+		<png>smiling-face-with-smiling-eyes_1f60a.png</png>
+		<alt>smiling face with smiling eyes emoji</alt>
+	</emoji>
+	<emoji>
+		<char>⭐</char>
+		<png>star_2b50.png</png>
+		<alt>star emoji</alt>
+	</emoji>
+	<emoji>
+		<char>🎉</char>
+		<png>party-popper_1f389.png</png>
+		<alt>tada emoji</alt>
+	</emoji>
+
+<!--
+	<emoji>
+		<char></char>
+		<png></png>
+		<alt></alt>
+	</emoji>
+	<emoji>
+		<char></char>
+		<png></png>
+		<alt></alt>
+	</emoji>
+-->
+
+
+</catalog>
+
+
+
+
+
+
+
+
+
+
