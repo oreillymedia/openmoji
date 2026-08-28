@@ -40,7 +40,7 @@ You can download, use and "consume" OpenMoji in various ways:
 - [OpenMoji Stickers](https://itunes.apple.com/us/app/openmoji/id1462636288): for iOS Messages app
 - [OpenMoji Github](https://github.com/hfg-gmuend/openmoji/): `git clone --depth 1 https://github.com/hfg-gmuend/openmoji.git` The OpenMoji repo is big! It is recommended to clone it without the entire history, note the --depth flag.
 - [OpenMoji NPM Package](https://www.npmjs.com/package/openmoji): `npm install openmoji`. You can also get individual files via [UNPKG](https://unpkg.com/) directly e.g.: unpkg.com/openmoji@12.1.0/color/svg/1F64B.svg
-- CDN (will always fetch latest version - to pin to a version, see documentation [here](https://www.jsdelivr.com/features#gh)): cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/svg/1F63A.svg
+- CDN (will always fetch latest version - to pin to a version, see documentation [here](https://www.jsdelivr.com/?docs=gh)): cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/svg/1F63A.svg
 
 **Community Extensions**
 
@@ -90,7 +90,9 @@ Attribution suggestion:
 
 If you use OpenMoji in an academic context, please cite it as:
 
-> Groß, B., Utz, D., & The OpenMoji Contributors. (2025). OpenMoji [Dataset]. https://openmoji.org
+> Groß, B., Utz, D., & The OpenMoji Contributors. (2026). OpenMoji [Dataset]. https://openmoji.org
+
+[![DOI](https://zenodo.org/badge/114106318.svg)](https://doi.org/10.5281/zenodo.19704719)
 
 <details>
 <summary>BibTeX</summary>
@@ -99,8 +101,9 @@ If you use OpenMoji in an academic context, please cite it as:
 @dataset{openmoji,
   author  = {Groß, Benedikt and Utz, Daniel and {The OpenMoji Contributors}},
   title   = {{OpenMoji}},
-  year    = {2018--2025},
+  year    = {2018--2026},
   url     = {https://openmoji.org},
+  doi     = {10.5281/zenodo.19704720},
   note    = {License: CC BY-SA 4.0}
 }
 ```

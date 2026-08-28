@@ -1,0 +1,58 @@
+name: Out of office autoresponder
+
+# Posts a one-time "out of office" comment on newly opened issues and pull
+# requests. To enable: flip OOO_ENABLED to 'true' below. To go back to
+# normal, flip it back to 'false' — no need to delete this file.
+#
+# OOO_UNTIL is a belt-and-suspenders expiry date (YYYY-MM-DD) so the
+# responder can't keep firing if someone forgets to disable it manually.
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+  pull_request_target:
+    types: [opened]
+
+env:
+  OOO_ENABLED: 'true'
+  OOO_UNTIL: '2026-09-30'
+  OOO_MESSAGE: |
+    👋 OpenMoji is on hold over the summer! The maintainers are currently out of office
+    and this won't be reviewed until end of September. No need to follow up in the meantime.
+    Have a great summer! 🏖️👋
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  autorespond:
+    if: github.event.action == 'opened' || github.event.action == 'created'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post out-of-office comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const enabled = process.env.OOO_ENABLED === 'true';
+            const until = new Date(process.env.OOO_UNTIL + 'T23:59:59Z');
+            if (context.payload.comment && context.payload.comment.user.type === 'Bot') {
+              core.info('Comment is from a bot (likely this workflow itself) — skipping to avoid a reply loop.');
+              return;
+            }
+            if (!enabled) {
+              core.info('OOO_ENABLED is false — skipping.');
+              return;
+            }
+            if (Date.now() > until.getTime()) {
+              core.info(`OOO_UNTIL (${process.env.OOO_UNTIL}) has passed — skipping. Update or disable this workflow.`);
+              return;
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: process.env.OOO_MESSAGE,
+            });
